@@ -146,11 +146,12 @@ Team D    19
 
 ## 📄 Licencja
 
-Ten projekt jest dostępny do użytku osobistego i edukacyjnego.
+Ten projekt jest dostępny do użytku osobistego i edukacyjnego.\
 Możesz go dowolnie modyfikować i rozbudowywać
 
 ## 👤 Autor
-Przemysław Radomski
+Przemysław Radomski\
 Projekt stworzony w celach edukacyjnych do analizy statystyk piłkarskich.
+
 
 
