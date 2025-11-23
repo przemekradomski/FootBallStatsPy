@@ -137,21 +137,6 @@ Team D    19
 ![Top gole drużyn](screenshots/top_goals_teams.png)
 *Ranking drużyn według sumy strzelonych goli*
 
-### Ranking graczy - Top asysty
-![Top asysty graczy](screenshots/top_assists_players.png)
-*Ranking graczy według liczby asyst*
-
-### Ranking drużyn - Top asysty
-![Top asysty drużyn](screenshots/top_assists_teams.png)
-*Ranking drużyn według sumy asyst*
-
-### Ranking graczy - Top żółte kartki
-![Top żółte kartki graczy](screenshots/top_yellow_cards_players.png)
-*Ranking graczy według liczby żółtych kartek*
-
-### Ranking drużyn - Top czerwone kartki
-![Top czerwone kartki drużyn](screenshots/top_red_cards_teams.png)
-*Ranking drużyn według sumy czerwonych kartek*
 
 ## 🛠️ Technologie
 
@@ -167,4 +152,5 @@ Możesz go dowolnie modyfikować i rozbudowywać
 ## 👤 Autor
 Przemysław Radomski
 Projekt stworzony w celach edukacyjnych do analizy statystyk piłkarskich.
+
 
