@@ -123,7 +123,6 @@ Team D    19
 
 ## 📸 Screenshoty
 
-> **Uwaga:** Aby dodać screenshoty, utwórz folder `screenshots/` w głównym katalogu projektu i umieść tam pliki PNG/JPG zgodnie z nazwami poniżej.
 
 ### Menu główne
 ![Menu główne](screenshots/menu.png)
@@ -152,6 +151,7 @@ Możesz go dowolnie modyfikować i rozbudowywać
 ## 👤 Autor
 Przemysław Radomski\
 Projekt stworzony w celach edukacyjnych do analizy statystyk piłkarskich.
+
 
 
 
