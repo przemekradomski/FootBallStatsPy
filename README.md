@@ -27,7 +27,9 @@ cd FootballStatsPy
 
 2. Zainstaluj wymagane biblioteki:
 ```bash
-pip install pandas numpy colored
+pip install pandas
+pip install numpy
+pip install colored
 ```
 
 ## 💻 Użycie
@@ -148,4 +150,5 @@ Możesz go dowolnie modyfikować i rozbudowywać
 ## 👤 Autor
 Przemysław Radomski
 Projekt stworzony w celach edukacyjnych do analizy statystyk piłkarskich.
+
 
