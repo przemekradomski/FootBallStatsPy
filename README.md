@@ -15,6 +15,7 @@ FootballStatsPy to narzędzie do analizy danych piłkarskich, które pozwala na:
 - Python 3.7+
 - pandas
 - numpy
+- colored (termcolor)
 
 ## 📦 Instalacja
 
@@ -26,12 +27,7 @@ cd FootballStatsPy
 
 2. Zainstaluj wymagane biblioteki:
 ```bash
-pip install pandas numpy
-```
-
-Lub użyj pliku requirements.txt (jeśli istnieje):
-```bash
-pip install -r requirements.txt
+pip install pandas numpy colored
 ```
 
 ## 💻 Użycie
@@ -65,8 +61,9 @@ FootballStatsPy/
 │   ├── player_analysis.py  # Funkcje analizy statystyk graczy
 │   └── team_analysis.py    # Funkcje analizy statystyk drużyn
 ├── scripts/
-│   └── print_datas.py      # Funkcje wyświetlania danych
-└── screenshots/             # Folder na screenshoty (opcjonalny)
+│   ├── __init__.py
+│   └── print_datas.py      # Funkcje wyświetlania danych z kolorowaniem
+└── screenshots/             # Folder na screenshoty
     ├── menu.png
     ├── top_goals_players.png
     ├── top_goals_teams.png
@@ -136,22 +133,19 @@ Team D    19
 ![Top gole drużyn](screenshots/top_goals_teams.png)
 *Ranking drużyn według sumy strzelonych goli*
 
-
 ## 🛠️ Technologie
 
 - **Python** - język programowania
 - **pandas** - biblioteka do analizy danych
 - **numpy** - biblioteka do obliczeń numerycznych
+- **colored** - biblioteka do kolorowania tekstu w konsoli
 
 ## 📄 Licencja
 
-Ten projekt jest dostępny do użytku osobistego i edukacyjnego.\
+Ten projekt jest dostępny do użytku osobistego i edukacyjnego.
 Możesz go dowolnie modyfikować i rozbudowywać
 
 ## 👤 Autor
-Przemysław Radomski\
+Przemysław Radomski
 Projekt stworzony w celach edukacyjnych do analizy statystyk piłkarskich.
-
-
-
 
