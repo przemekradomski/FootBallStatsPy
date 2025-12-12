@@ -2,16 +2,17 @@ import pandas as pd
 from utils import player_analysis
 from utils import team_analysis
 from scripts import print_datas
+from termcolor import colored
 
 def loadData(file_path):
     try:
         df = pd.read_csv(file_path)
         return df
     except FileNotFoundError:
-        print(f"Błąd: Nie znaleziono pliku {file_path}")
+        print(termcolor.colored(f"Błąd: Nie znaleziono pliku {file_path}", "red"))
         return None
     except Exception as e:
-        print(f"Błąd podczas ładowania danych: {e}")
+        print(termcolor.colored(f"Błąd podczas ładowania danych: {e}", "red"))
         return None
 
 def getUserInput():
@@ -42,7 +43,7 @@ def getUserInput():
         team_analysis.topTeamRedCards(df)
         print_datas.printTeamTopRedCards()    
     else:
-        print("Nieprawidłowa opcja")
+        print(termcolor.colored("Nieprawidłowa opcja", "red"))
 
 if __name__ == "__main__":
     df = loadData("data/sports_data.csv")
