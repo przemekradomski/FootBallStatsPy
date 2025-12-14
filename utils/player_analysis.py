@@ -30,6 +30,6 @@ def topGoals(df):
 def topAssists(df):
     global assists
     if 'Assists' not in df.columns:
-        print(colored("Nie ma kolumny Assists"))
+        print(colored("Nie ma kolumny Assists", "red"))
         return
     assists = df['Assists']
