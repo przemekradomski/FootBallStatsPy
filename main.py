@@ -9,10 +9,10 @@ def loadData(file_path):
         df = pd.read_csv(file_path)
         return df
     except FileNotFoundError:
-        print(termcolor.colored(f"Błąd: Nie znaleziono pliku {file_path}", "red"))
+        print(colored(f"Błąd: Nie znaleziono pliku {file_path}", "red"))
         return None
     except Exception as e:
-        print(termcolor.colored(f"Błąd podczas ładowania danych: {e}", "red"))
+        print(colored(f"Błąd podczas ładowania danych: {e}", "red"))
         return None
 
 def getUserInput():
@@ -43,7 +43,7 @@ def getUserInput():
         team_analysis.topTeamRedCards(df)
         print_datas.printTeamTopRedCards()    
     else:
-        print(termcolor.colored("Nieprawidłowa opcja", "red"))
+        print(colored("Nieprawidłowa opcja", "red"))
 
 if __name__ == "__main__":
     df = loadData("data/sports_data.csv")
